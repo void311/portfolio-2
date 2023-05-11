@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+    background-image: url("../Urban\ Fashion\ Img/background.png");
+}
+
+#pics{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    position: relative;
+    margin-left: 30%;
+    font-size: 420%;
+}
+
+.a{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+    height: 55%;
+    width: 55%;
+}
+#tomso{
+    height: 185%  !important;
+    width: 185%  !important;
+}
+img{
+    height: inherit;
+    width: inherit;
+}
+
+@media screen and (max-width : 768px) {
+    h1{margin-left: 10%;}
+    #pics{
+        display: flex;
+        flex-direction: column;
+    }
+}
