@@ -1,0 +1,91 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+    background-image: url("../Urban\ Fashion\ Img/background.png");
+}
+
+.navbar{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#image
+{   height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+.bar_buttons
+{   
+    position: relative;
+    margin-left: 50%;
+}
+
+.button
+{   
+    font-size: 1.5vw;
+}
+nav{
+    
+    flex: 1;
+    padding-left: 4rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0rem 1.2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+#pics{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    position: relative;
+    margin-left: 30%;
+    font-size: 420%;
+}
+
+.a{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+    height: 55%;
+    width: 55%;
+}
+#tomso{
+    height: 185%  !important;
+    width: 185%  !important;
+}
+img{
+    height: inherit;
+    width: inherit;
+}
+
+@media screen and (max-width : 768px) {
+    h1{margin-left: 10%;}
+    #pics{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 937px) {
+  
+   
+nav ul li{
+    display:block;}
+    
+    #image{
+        height: 25%;
+        width: 25%;
+    }
+    .button{font-size: 5.0vw;}
+    .bar_buttons{margin-left: 10%;}
+  
+}
